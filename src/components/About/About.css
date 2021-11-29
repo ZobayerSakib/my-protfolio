@@ -4,6 +4,9 @@
     margin: 130px;
     padding:40px;
 }
+.aboutDiv p{
+    font-size: 15px;
+}
 .aboutDiv img{
     width: 100%;
     height: 350px;

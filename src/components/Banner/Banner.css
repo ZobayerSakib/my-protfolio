@@ -1,5 +1,5 @@
 .bannerDesign{
-    background-color: #70660e;
+    background-color: #0d0f44;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     padding: 20px 0px;
@@ -27,7 +27,7 @@
 /*------------------------------------- Responsive Section------------------------------------ */
 @media only screen and (max-width:850px) {
     .bannerDesign{
-        background-color:#70660e;
+        background-color:#0d0f44;
         display: grid;
         grid-template-columns: repeat(1,1fr);
         padding: 20px 0px;

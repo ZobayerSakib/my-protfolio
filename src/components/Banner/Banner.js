@@ -10,7 +10,7 @@ const Banner = () => {
             </div>
             <div className='bannerInfo'>
                 <h1>MD. ZOBAYER HOSSAIN SAKIB</h1>
-                <h3>I'm a &nbsp;
+                <h3> &nbsp;
                     <span className='colorText'>
                         <Typical
                             loop={Infinity}

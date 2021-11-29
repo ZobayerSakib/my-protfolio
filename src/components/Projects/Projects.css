@@ -1,3 +1,41 @@
+.caroDesign h1,h2,h3,h4,h5,h6,p{
+    color:#0d0f44;
+    font-size: 50px;
+}
+.caroDesign button{
+    background-color: rgb(216, 5, 5);
+    color:white;
+    border-radius: 6px;
+    border:1px solid white;
+    height: 33px;
+
+    
+}
+.projectDiv:hover{
+    opacity: 1;
+}
 .projectDiv{
     margin-top: 80px;
+    width: 700px;
+    margin: auto;
+    opacity: .5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.projectDivTitle {
+   margin-bottom: 50px;
+   text-align: center;
+}
+
+.projectDivTitle h4{
+    opacity: .7;
+}
+/* Responsive Part */
+@media only screen and (max-width:850px) {
+    .projectDiv{
+        margin-top: 80px;
+        width: 90%;
+        margin: auto;
+    }
+    
 }
