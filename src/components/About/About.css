@@ -1,0 +1,22 @@
+.aboutDiv{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 130px;
+    padding:40px;
+}
+.aboutDiv img{
+    width: 100%;
+    height: 350px;
+   
+}
+
+/* ---------------------------------Responsive Part --------------------------------*/
+@media only screen and (max-width:850px) {
+    .aboutDiv{
+       
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 20px;
+        padding:40px;
+    }
+}

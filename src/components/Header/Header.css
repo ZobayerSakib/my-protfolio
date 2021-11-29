@@ -1,0 +1,13 @@
+.navImgDesign img{
+    border-radius: 50%;
+   
+}
+.navImgDesign img:hover{
+    border: 2px solid black;
+}
+
+.me-auto a{
+margin-right: 20px;
+margin-left: 10px;
+text-decoration: none;
+}
