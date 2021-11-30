@@ -31,3 +31,16 @@
 .footerPara p{
     font-size: 15px;
 }
+/* Responsive Part */
+@media only screen  and (max-width:850px) {
+    
+    .footer input{
+        width: 90%;
+        padding:10px;
+        border-radius: 6px;
+    }
+    .footer textarea{
+        width: 90%;
+        border-radius: 6px;
+    }
+}

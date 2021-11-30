@@ -1,12 +1,16 @@
 import React from 'react';
 import './Footer.css'
 const Footer = () => {
+    const contactForm = e => {
+        e.preventDefault()
+    }
+
     return (
         <div className='footer' >
             <div className='mt-5'>
                 <h4>Contact With Me</h4>
                 <p>You can anytime connect with me. I am always waiting for your Message.</p>
-                <form>
+                <form onSubmit={contactForm}>
                     <input type="text" placeholder='name' required />
                     <br /><br />
                     <input type="email" placeholder='email' required />
