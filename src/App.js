@@ -5,6 +5,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Resume from './components/Resume/Resume';
 import Contact from './components/Contact/Contact';
+import Blogs from './components/Blogs/Blogs';
 function App() {
   return (
     <div>
@@ -22,6 +23,9 @@ function App() {
 
           <Route exact path='/resume'>
             <Resume></Resume>
+          </Route>
+          <Route exact path='/blogs'>
+            <Blogs></Blogs>
           </Route>
           <Route exact path='/contact'>
             <Contact></Contact>
