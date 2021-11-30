@@ -1,13 +1,38 @@
+.navStyle{
+    background-color:#0d0f44 ;
+    border-bottom: 4px solid orange;
+}
 .navImgDesign img{
     border-radius: 50%;
    
 }
 .navImgDesign img:hover{
-    border: 2px solid black;
+    border: 10px solid orange;
 }
 
 .me-auto a{
 margin-right: 20px;
 margin-left: 10px;
 text-decoration: none;
+font-weight: 600;
+font-size: 20px;
+color:white;
+margin-top: 20px;
+padding:10px;
+
+}
+
+.me-auto a:hover{
+    border-bottom: 2px dashed orange;
+}
+
+/* -----------------Responsive Part -----------------------*/
+@media only screen  and (max-width:850px) {
+    .me-auto a:hover{
+        background-color: orange;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+        font-family: cursive;
+    }
 }

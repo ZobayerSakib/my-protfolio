@@ -1,5 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import download from '../../Images/downloadImg.png'
+import Footer from '../Footer/Footer';
 import './Resume.css'
 
 const Resume = () => {
@@ -9,9 +11,12 @@ const Resume = () => {
                 <img src={download} alt="" />
             </div>
             <div>
-                <a href='https://drive.google.com/file/d/1ISLA6FCCAnyiLP14YB1rJNmdiLkwNkV6/view?usp=sharing'><button>Download Resume</button></a>
+                <Link to="files/ZobayerResume.pdf" target="_blank" download><button> <i class="fas fa-download"></i> Download Resume</button></Link>
+
             </div>
+
         </div>
+
     );
 };
 

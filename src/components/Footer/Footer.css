@@ -1,0 +1,33 @@
+.footer{
+  background-color: #0d0f44;
+ text-align: center;
+ margin-top: 100px;
+ padding-bottom: 20px;
+ border-top: 40px solid orange;
+ padding:20px;
+ 
+}
+
+.footer h4{
+    color:orange;
+    padding-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.footer p{
+    color:rgb(241, 150, 150);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer input{
+    width: 400px;
+    padding:10px;
+    border-radius: 6px;
+}
+.footer textarea{
+    width: 400px;
+    border-radius: 6px;
+}
+.footerPara p{
+    font-size: 15px;
+}

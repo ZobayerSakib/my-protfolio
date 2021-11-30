@@ -1,36 +1,57 @@
 .bannerDesign{
-    background-color: #0d0f44;
+    background-image: url('../../Images/bannerBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     padding: 20px 0px;
     height: 520px;
     font-family: monospace;
+    border-bottom: 4px solid orange;
+    border-top: 4px solid orange;
+  
+   
     
 }
 .bannerDesign h1{
-    color:white;
-    font-size: 80px;
+    color:orange;
+    font-size: 40px;
 }
 .bannerDesign img{
-    /* border-radius: 50%; */
     width: 90%;
     height: 500px;
 }
-.bannerInfo{
-    color:red;
+.bannerInfo h1{
+    color:orange;
     margin-top: 100px;
-}
+  
 
+}
+.bannerInfo button{
+    margin-top: 12px;
+    width: 230px;
+    padding:12px;
+    background-color: orange;
+    color:rgb(32, 1, 1);
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 20px;
+    border:none;
+}
 .colorText{
     color:white;
 }
 /*------------------------------------- Responsive Section------------------------------------ */
 @media only screen and (max-width:850px) {
     .bannerDesign{
-        background-color:#0d0f44;
+        
         display: grid;
         grid-template-columns: repeat(1,1fr);
         padding: 20px 0px;
+        height: auto;
+        background-image: url('../../Images/bannerBg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
         height: auto;
         
     }
@@ -42,16 +63,8 @@
     .imgDesign{
         text-align: center;
     }
-    .bannerDesign img{
-        height:400px;
-        width: 50%;
-        margin:auto;
-        border-radius: 59%;
-        border:2px solid rgb(211 204 191);
-    }
-    .bannerDesign img:hover{
-        border:5px solid rgb(211 204 191) ;
-    }
+    
+    
     .bannerInfo{
         padding-left: 20px;
     }

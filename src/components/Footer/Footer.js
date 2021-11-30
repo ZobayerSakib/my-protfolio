@@ -1,8 +1,8 @@
 import React from 'react';
-import './Contact.css'
-const Contact = () => {
+import './Footer.css'
+const Footer = () => {
     return (
-        <div className='contact'>
+        <div className='footer' >
             <div className='mt-5'>
                 <h4>Contact With Me</h4>
                 <p>You can anytime connect with me. I am always waiting for your Message.</p>
@@ -16,8 +16,13 @@ const Contact = () => {
                     <input type="submit" value="Submit" />
                 </form>
             </div>
+            <hr />
+            <div className='mt-3 text-center footerPara'>
+                <p>&copy;All Rights preserved by Zobayer Sakib</p>
+            </div>
+
         </div>
     );
 };
 
-export default Contact;
+export default Footer;

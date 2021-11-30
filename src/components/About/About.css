@@ -1,15 +1,34 @@
 .aboutDiv{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    margin: 130px;
-    padding:40px;
+    padding:140px;
+    margin-top: 20px ;
+    margin-bottom: 40px ;
+    background-image: url('../../Images/bannerBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    border-top: 40px solid #0d0f44;
+    
 }
 .aboutDiv p{
     font-size: 15px;
+    color:white;
+}
+.aboutDiv h3{
+    color: rgb(204, 121, 121);
+    border-top:4px solid orange;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.aboutDiv h5{
+    color:orange;
+    font-family: fantasy;
 }
 .aboutDiv img{
     width: 100%;
     height: 350px;
+    border-radius: 20px 50px;
    
 }
 

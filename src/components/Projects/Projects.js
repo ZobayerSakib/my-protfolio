@@ -14,7 +14,17 @@ const Projects = () => {
     const handleShow = () => setShow(true);
 
     return (
-        <div className='projectDiv'>
+
+        <div className='projectDiv'
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            data-aos-anchor-placement="top-center"
+        >
             <div className='projectDivTitle'>
                 <h1>My All Projects</h1>
                 <h4>Working quality is best performer and why we won't choice the quality. Quality is brand and Brand is quality.</h4>
@@ -29,7 +39,7 @@ const Projects = () => {
                         alt="First Project"
                     />
                     <Carousel.Caption>
-                        <h3>Mini Bicycle Park</h3>
+
                         <span><a href="https://bicycle-park-9ddd5.web.app/"><button>Visit the Site</button></a></span>
                         <span><a href="https://github.com/ZobayerSakib/mini-bicycle-park-server"><button>Code Link (Server) </button></a> </span> <span><a href="https://github.com/ZobayerSakib/mini-bicycle-park"><button>Code Link (Client) </button></a></span>
                         <br />
@@ -38,11 +48,16 @@ const Projects = () => {
                             Details
                         </Button>
 
-                        <Modal show={show} onHide={handleClose}>
+                        <Modal className='modalDesign' show={show} onHide={handleClose}>
                             <Modal.Header closeButton>
                                 <Modal.Title>Information of the Website</Modal.Title>
                             </Modal.Header>
-                            <Modal.Body>This was an awesome journey when I started to build this site. Starting period I thought about its hidden functionality and I thought Which way I will follow to finish this website and divide those functionality part by part. If a user visits this site he/she can be happy to visit cause it is totally responsive for mobile and desktop mode.</Modal.Body>
+
+                            <Modal.Body >This was an awesome journey when I started to build this site. Starting period I thought about its hidden functionality and I thought Which way I will follow to finish this website and divide those functionality part by part. If a user visits this site he/she can be happy to visit cause it is totally responsive for mobile and desktop mode.
+                                Hello
+
+                            </Modal.Body>
+
                             <Modal.Footer>
                                 <Button variant="dark" onClick={handleClose}>
                                     Close
@@ -62,7 +77,7 @@ const Projects = () => {
                         alt="Second Project"
                     />
                     <Carousel.Caption>
-                        <h3>Honda Searcher</h3>
+
                         <span><a href="https://eager-brahmagupta-6d0530.netlify.app/"><button>Visit the Site</button></a></span>
                         <span><a href="https://github.com/ZobayerSakib/honda-searcher"><button>Code Link (Client) </button></a></span>
                         <br />
@@ -71,7 +86,7 @@ const Projects = () => {
                             Details
                         </Button>
 
-                        <Modal show={show} onHide={handleClose}>
+                        <Modal className='modalDesign' show={show} onHide={handleClose}>
                             <Modal.Header closeButton>
                                 <Modal.Title>Information of the Website</Modal.Title>
                             </Modal.Header>
@@ -95,16 +110,16 @@ const Projects = () => {
                         alt="Third Project"
                     />
                     <Carousel.Caption>
-                        <h3>Health Care</h3>
+
                         <span><a href="https://health-care24-aaad1.web.app/"><button>Visit the Site</button></a></span>
                         <span><a href="https://github.com/ZobayerSakib/health-care"><button>Code Link (Client) </button></a></span>
                         <br />
-                        {/* 
+
                         <Button variant="primary" onClick={handleShow}>
                             Details
                         </Button>
 
-                        <Modal show={show} onHide={handleClose}>
+                        <Modal className='modalDesign' show={show} onHide={handleClose}>
                             <Modal.Header closeButton>
                                 <Modal.Title>Information of the Website</Modal.Title>
                             </Modal.Header>
@@ -119,7 +134,7 @@ const Projects = () => {
                                 </Button>
 
                             </Modal.Footer>
-                        </Modal> */}
+                        </Modal>
 
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -130,15 +145,15 @@ const Projects = () => {
                         alt="Fourth Project"
                     />
                     <Carousel.Caption>
-                        <h3>Online Education Course</h3>
+
                         <span><a href="https://sad-almeida-5bc27e.netlify.app/"><button>Visit the Site</button></a></span>
                         <span><a href="https://github.com/ZobayerSakib/online-education-course"><button>Code Link (Client) </button></a></span>
                         <br />
-                        {/* <Button variant="primary" onClick={handleShow}>
+                        <Button variant="primary" onClick={handleShow}>
                             Details
                         </Button>
 
-                        <Modal show={show} onHide={handleClose}>
+                        <Modal className='modalDesign' show={show} onHide={handleClose}>
                             <Modal.Header closeButton>
                                 <Modal.Title>Information of the Website</Modal.Title>
                             </Modal.Header>
@@ -151,7 +166,7 @@ const Projects = () => {
                                 </Button>
 
                             </Modal.Footer>
-                        </Modal> */}
+                        </Modal>
 
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -165,31 +180,35 @@ const Projects = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3>A Dedicated Team</h3>
+
                         <span><a href="https://social-worker-team.netlify.app/"><button>Visit the Site</button></a></span>
                         <span><a href="https://github.com/ZobayerSakib/social-worker"><button>Code Link (Client) </button></a></span>
                         <br />
-                        {/* <Button variant="primary" onClick={handleShow}>
+                        <Button variant="primary" onClick={handleShow}>
                             Details
                         </Button>
 
-                        <Modal show={show} onHide={handleClose}>
+                        <Modal className='modalDesign' show={show} onHide={handleClose}>
                             <Modal.Header closeButton>
                                 <Modal.Title>Information of the Website</Modal.Title>
                             </Modal.Header>
                             <Modal.Body>Here, I had explained the power of React.
-                                We know that React is JS library. In this project I have used it to design easily my project code.In this project, I have tried to describe the beautiful function of react and how we can make an interactive website by using it.</Modal.Body>
+                                We know that React is JS library. In this project I have used it to design easily my project code.In this project, I have tried to describe the beautiful function of react and how we can make an interactive website by using it.
+
+                            </Modal.Body>
+
                             <Modal.Footer>
                                 <Button variant="dark" onClick={handleClose}>
                                     Close
                                 </Button>
 
                             </Modal.Footer>
-                        </Modal> */}
+                        </Modal>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
         </div>
+
     );
 };
 

@@ -30,6 +30,19 @@
 .projectDivTitle h4{
     opacity: .7;
 }
+
+.modalDesign{
+    background-color: black;
+    color:rgb(221, 19, 19);
+   border:2px solid red;
+   border-radius: 8px;
+}
+
+.modalBody{
+    width: 700px;
+    background: black;
+}
+
 /* Responsive Part */
 @media only screen and (max-width:850px) {
     .projectDiv{
