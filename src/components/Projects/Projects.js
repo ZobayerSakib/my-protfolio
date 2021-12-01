@@ -12,14 +12,7 @@ const Projects = () => {
     return (
 
         <div className='projectsDiv'
-            data-aos="fade-up-right"
-            data-aos-offset="200"
-            data-aos-delay="50"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            data-aos-once="false"
-            data-aos-anchor-placement="top-center"
+
         >
             <div className='projectTitle'>
                 <h2>My Some Projects</h2>

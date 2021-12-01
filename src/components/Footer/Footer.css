@@ -1,7 +1,6 @@
 .footer{
   background-color: #0d0f44;
  text-align: center;
- /* margin-top: 100px; */
  padding-bottom: 20px;
  border-top: 5px solid rgb(177, 118, 9);
  padding:20px;
@@ -11,13 +10,13 @@
 .footer h4{
     color:rgb(177, 118, 9);
     padding-top: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
 }
 .footer p{
     color:rgb(241, 150, 150);
     font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 .footer input{
     width: 400px;

@@ -2,7 +2,8 @@ import React from 'react';
 import './Footer.css'
 const Footer = () => {
     const contactForm = e => {
-        e.preventDefault()
+        e.preventDefault();
+        e.target.reset();
     }
 
     return (
@@ -17,7 +18,7 @@ const Footer = () => {
                     <br /><br />
                     <textarea name="" placeholder='Message' id="" cols="30" rows="5" required></textarea>
                     <br /><br />
-                    <input type="submit" value="Submit" />
+                    <input type="submit" value="Send" />
                 </form>
             </div>
             <hr />

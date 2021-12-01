@@ -1,9 +1,9 @@
 .contact{
     background-color: #0d0f44;
    text-align: center;
-   margin-top: 20px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    padding-bottom: 20px;
-   border-top: 10px solid orange;
+  
    padding:20px;
    
   }
@@ -11,13 +11,11 @@
   .contact h4{
       color:orange;
       padding-top: 6px;
-      font-family: Georgia, 'Times New Roman', Times, serif;
       font-size: 30px;
   }
   .contact p{
-      color:rgb(241, 150, 150);
+      color:rgb(153, 152, 152);
       font-size: 20px;
-      font-family: Georgia, 'Times New Roman', Times, serif;
   }
   .contact input{
       width: 400px;

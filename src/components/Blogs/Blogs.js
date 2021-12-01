@@ -10,14 +10,9 @@ import Footer from '../Footer/Footer';
 const Blogs = () => {
     return (
         <div>
-            <div className='blogsDiv' data-aos="fade-up "
-                data-aos-offset="200"
-                data-aos-delay="50"
-                data-aos-duration="1000"
-                data-aos-easing="ease-in-out"
-                data-aos-mirror="true"
-                data-aos-once="false"
-                data-aos-anchor-placement="top-center">
+            <div className='blogsDiv'
+
+            >
                 <div className='blogTitle'>
                     <h2>My Blogs <span><h4>Coming Soon</h4></span></h2>
 
