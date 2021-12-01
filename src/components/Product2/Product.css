@@ -1,4 +1,4 @@
-.product1{
+.product2{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     padding:20px;
@@ -36,7 +36,7 @@ background-color:white;
 -------------------------------------------------------------------------------- */
 
 @media only screen and (max-width:850px) {
-    .product1{
+    .product2{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         

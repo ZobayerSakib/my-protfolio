@@ -2,6 +2,9 @@ import './Projects.css'
 import img1 from '../../Images/mini-bicycle.png'
 import img2 from '../../Images/motorBike.png'
 import img3 from '../../Images/english-care.png'
+import img4 from '../../Images/health1.png'
+import img5 from '../../Images/tour1.png'
+import img6 from '../../Images/mini1.png'
 import { Link } from 'react-router-dom';
 const Projects = () => {
 
@@ -27,15 +30,15 @@ const Projects = () => {
                     <Link to='/product3'><button>Details</button></Link>
                 </div>
                 <div>
-                    <img src={img3} alt="" /><br /><br />
+                    <img src={img4} alt="" /><br /><br />
                     <Link to='/product4'><button>Details</button></Link>
                 </div>
                 <div>
-                    <img src={img3} alt="" /><br /><br />
+                    <img src={img5} alt="" /><br /><br />
                     <Link to='/product5'><button>Details</button></Link>
                 </div>
                 <div>
-                    <img src={img3} alt="" /><br /><br />
+                    <img src={img6} alt="" /><br /><br />
                     <Link to='/product6'><button>Details</button></Link>
                 </div>
 

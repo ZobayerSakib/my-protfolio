@@ -1,50 +1,50 @@
 import React from 'react';
-import mini1 from '../../Images/mini-bicycle.png'
-import mini2 from '../../Images/mini1.png'
-import mini3 from '../../Images/mini2.png'
+import health1 from '../../Images/health1.png'
+import health2 from '../../Images/health2.png'
+import health3 from '../../Images/health3.png'
 import './Product4.css'
 const Product4 = () => {
     return (
         <>
             <div className='product1'>
                 <div>
-                    <h6><b className='projectColorCode'>Project Name :</b> Mini Bicycle Park</h6>
-                    <h6><b className='projectColorCode'>Project Type:</b> Full-Stack Web Application</h6>
-                    <h6><b className='projectColorCode'>Category:</b> Online Buying Store</h6>
+                    <h6><b className='projectColorCode'>Project Name :</b> Health Care24</h6>
+                    <h6><b className='projectColorCode'>Project Type:</b> Static Web Application</h6>
+                    <h6><b className='projectColorCode'>Category:</b>Online Clinic service</h6>
 
                     <h6 className='mb-3'><b className='projectColorCode'><u>Uses Technologies:</u></b></h6> <div className='productSpan'>
-                        <p>ReactJs</p><p>NodeJs</p><p>ExpressJs</p><p>Css</p><p>Bootstrap</p><p>MongoDB</p>
-                        <p>Firebase </p><p>React Router</p><p>Heroku</p>
+                        <p>ReactJs</p><p>CSS</p><p>Bootstrap</p><p>Netlify</p>
+                        <p>Firebase</p>
                     </div>
 
                     <div className='mt-3 projectButton'>
-                        <a href='https://bicycle-park-9ddd5.web.app/'><button> <i class="fab fa-chrome"></i> Review Website</button></a>
-                        <a href='https://github.com/ZobayerSakib/mini-bicycle-park'><button><i class=" fab fa-github"></i> Code (Client) </button></a>
-                        <a href='https://github.com/ZobayerSakib/mini-bicycle-park-server'><button> <i class="fab fa-github"></i> Code (Server) </button></a>
+                        <a href='https://health-care24-aaad1.web.app/'><button> <i class="fab fa-chrome"></i> Review Website</button></a>
+                        <a href='https://github.com/ZobayerSakib/health-care'><button><i class=" fab fa-github"></i> Code (Client) </button></a>
+
                     </div>
                     <br />
                     <h6><b className='projectColorCode'>Short Description:</b></h6>
-                    <p>This was an awesome journey when I started to build this site. Starting period I thought about its hidden functionality and I thought Which way I will follow to finish this website and divide those functionality part by part. If a user visits this site he/she can be happy to visit cause it is totally responsive for mobile and desktop mode.</p>
+                    <p>Behind the objectives of this project are very enjoyable. In this projects, I seemed it is very easy to do but when I went to do then I feel its real test..</p>
                     <h6><b className='projectColorCode'>Short Overview:</b></h6>
 
                     <ul >
-                        <li>It is a responsive Website for a better user experience</li>
-                        <li>The main objective of this site is that a user can buy Bicycle online easily</li>
-                        <li>I have implemented here a review system so that a user can post his/her comment</li>
-                        <li>A general user only see a specific function that is needed for his/her work on the site</li>
-                        <li>By this site, we have used MongoDB for server site connection and a user can explore another time for when he wants without again registration</li>
+                        <li>React is really a powerful library</li>
+                        <li>By using Javascript library, this project become easily interactive</li>
+                        <li>As,this is a health related website so when people come to visit this site they will enjoy to stay</li>
+                        <li>In this project, I have tried to stay focus for best output.</li>
+                        <li>React router has changed this project perform, it is outstanding.</li>
 
                     </ul>
                 </div>
                 <div className='projectAside'>
                     <div>
-                        <img width='100%' src={mini1} alt="" />
+                        <img width='100%' src={health1} alt="" />
                     </div>
                     <div>
-                        <img width='100%' src={mini2} alt="" />
+                        <img width='100%' src={health2} alt="" />
                     </div>
                     <div>
-                        <img width='100%' src={mini3} alt="" />
+                        <img width='100%' src={health3} alt="" />
                     </div>
                 </div>
             </div>
