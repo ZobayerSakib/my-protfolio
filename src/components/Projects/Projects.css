@@ -1,54 +1,51 @@
-.caroDesign h1,h2,h3,h4,h5,h6,p{
-    color:#0d0f44;
-    font-size: 50px;
+.projectsDiv{
+    background-image: url('../../Images/bannerBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:40px;
 }
-.caroDesign button{
-    background-color: rgb(216, 5, 5);
-    color:white;
-    border-radius: 6px;
-    border:1px solid white;
-    height: 33px;
 
+.projectTitle{
+    font-family: 'Lobster', cursive;
+    text-align: right;
     
 }
-.projectDiv:hover{
-    opacity: 1;
+.projectTitle h2{
+    font-size: 40px;
+    color: rgb(243, 240, 240);
+
 }
-.projectDiv{
-    margin-top: 80px;
-    width: 700px;
+.projectTitle p{
+    color: rgb(177, 118, 9);
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 20px; 
     margin: auto;
-    opacity: .5;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+.projects button{
+    margin-bottom: 20px;
+    width: 170px;
+    padding:12px;
+    border:none;
+    
 }
 
-.projectDivTitle {
-   /* margin-bottom: 50px; */
-   text-align: center;
+.projects img{
+    width: 400px;
+    height: 300px;
 }
-
-.projectDivTitle h4{
-    opacity: .7;
-}
-
-.modalDesign{
-    background-color: black;
-    color:rgb(221, 19, 19);
-   border:2px solid red;
-   border-radius: 8px;
-}
-
-.modalBody{
-    width: 700px;
-    background: black;
-}
-
 /* Responsive Part */
 @media only screen and (max-width:850px) {
-    .projectDiv{
-        margin-top: 80px;
-        width: 90%;
-        margin: auto;
+    .projects{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);   
     }
-    
+    .projects img{
+        width: 400px;
+        height: 300px;
+    }
 }

@@ -1,14 +1,10 @@
 .aboutDiv{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    /* padding:140px; */
-    /* margin-top: 20px ; */
-    /* margin-bottom: 40px ; */
     background-image: url('../../Images/bannerBg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    font-family: 'Lobster', cursive;
     border-top: 40px solid #0d0f44;
 
     
@@ -16,16 +12,15 @@
 .aboutDiv p{
     font-size: 15px;
     color:white;
+    font-family: 'Lobster Two', cursive;
 }
 .aboutDiv h3{
-    /* color: rgb(204, 121, 121); */
     color:white;
-    border-top:4px solid orange;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Lobster', cursive;
 }
 .aboutDiv h5{
-    color:orange;
-    font-family: fantasy;
+    color:rgb(177, 118, 9);
+    font-family: 'Lobster', cursive;
 }
 .aboutDiv img{
     width: 100%;
@@ -35,8 +30,9 @@
 }
 
 .about{
-    border-right: 31px solid #0d0f44;
+    border-right: 1px solid rgb(177, 118, 9);
     padding:20px;
+    border-radius: 44px;
 }
 
 /* ---------------------------------Responsive Part --------------------------------*/

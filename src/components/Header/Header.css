@@ -1,13 +1,12 @@
 .navStyle{
     background-color:#0d0f44 ;
-    border-bottom: 4px solid orange;
 }
 .navImgDesign img{
     border-radius: 50%;
    
 }
 .navImgDesign img:hover{
-    border: 10px solid orange;
+    border: 3px solid rgb(177, 118, 9);
 }
 
 .me-auto a{
@@ -16,23 +15,25 @@ margin-left: 10px;
 text-decoration: none;
 font-weight: 600;
 font-size: 20px;
-color:white;
+color:rgb(107, 104, 104);
 margin-top: 20px;
 padding:10px;
+font-family: 'Lobster', cursive;
 
 }
 
 .me-auto a:hover{
-    border-bottom: 2px dashed orange;
+    border-bottom: 2px dashed rgb(177, 118, 9);
+    color:palegoldenrod
 }
 
 /* -----------------Responsive Part -----------------------*/
 @media only screen  and (max-width:850px) {
     .me-auto a:hover{
         background-color: orange;
-        padding: 10px;
+        padding: 8px;
         border-radius: 5px;
         text-align: center;
-        font-family: cursive;
+        
     }
 }

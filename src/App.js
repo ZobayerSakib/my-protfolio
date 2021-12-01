@@ -6,6 +6,12 @@ import Header from './components/Header/Header';
 import Resume from './components/Resume/Resume';
 import Contact from './components/Contact/Contact';
 import Blogs from './components/Blogs/Blogs';
+import Product1 from './components/Product1/Product1';
+import Product2 from './components/Product2/Product2';
+import Product3 from './components/Product3/Product3';
+import Product6 from './components/Product6/Product6';
+import Product4 from './components/Product4/Product4';
+import Product5 from './components/Product5/Product5';
 function App() {
   return (
     <div>
@@ -29,6 +35,24 @@ function App() {
           </Route>
           <Route exact path='/contact'>
             <Contact></Contact>
+          </Route>
+          <Route exact path='/product1'>
+            <Product1></Product1>
+          </Route>
+          <Route exact path='/product2'>
+            <Product2></Product2>
+          </Route>
+          <Route exact path='/product3'>
+            <Product3></Product3>
+          </Route>
+          <Route exact path='/product4'>
+            <Product4></Product4>
+          </Route>
+          <Route exact path='/product5'>
+            <Product5></Product5>
+          </Route>
+          <Route exact path='/product6'>
+            <Product6></Product6>
           </Route>
 
         </Switch>

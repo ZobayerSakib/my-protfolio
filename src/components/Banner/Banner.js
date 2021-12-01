@@ -1,5 +1,5 @@
 import React from 'react';
-import bannerImg from '../../Images/xossBanner.png';
+import bannerImg from '../../Images/browserOpen.png';
 import Typical from 'react-typical'
 import './Banner.css'
 import { Link } from 'react-router-dom';
@@ -10,7 +10,8 @@ const Banner = () => {
                 <img src={bannerImg} alt="" />
             </div>
             <div className='bannerInfo'>
-                <h1>MD.ZOBAYER HOSSAIN SAKIB</h1>
+                <h1 className='text-white'>Hi,</h1>
+                <h1>I'm Zobayer Sakib</h1>
                 <h3> &nbsp;
                     <span className='colorText'>
                         <Typical

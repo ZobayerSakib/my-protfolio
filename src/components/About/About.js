@@ -11,6 +11,11 @@ const About = () => {
                 <p>I'm a Junior Full-stack Web developer who loves to develop eye-catching projects and try to do the best portion of them.
 
                     Coding is my passion. I'm exploring new things of Web development every day with research and curiosity. The whole day, I try to find out different web technology tools & Learn from them! I’m a highly curious and dedicated person, and I like the work that is challenging to me and gives me a different taste and direction.</p>
+
+                <br />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore itaque molestiae error pariatur architecto veniam repellendus ipsum, illo laborum unde, voluptatum necessitatibus ab sed quas perferendis culpa ipsam adipisci. Aspernatur!
+                </p>
             </div>
 
         </div>
