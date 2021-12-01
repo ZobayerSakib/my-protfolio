@@ -18,6 +18,10 @@
     color:white;
     font-size: 60px;
 }
+.blogTitle h4{
+    color:blanchedalmond;
+    font-size: 15px;
+}
 .blogTitle h6{
     color:orange;
     opacity: .7;

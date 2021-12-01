@@ -6,15 +6,18 @@ import './Resume.css'
 
 const Resume = () => {
     return (
-        <div className='resumeDiv'>
-            <div>
-                <img src={download} alt="" />
-            </div>
-            <div>
-                <Link to="files/ZobayerResume.pdf" target="_blank" download><button> <i class="fas fa-download"></i> Download Resume</button></Link>
+        <div>
+            <div className='resumeDiv'>
+                <div>
+                    <img src={download} alt="" />
+                </div>
+                <div>
+                    <Link to="files/ZobayerResume.pdf" target="_blank" download><button> <i class="fas fa-download"></i> Download Resume</button></Link>
+
+                </div>
 
             </div>
-
+            <Footer></Footer>
         </div>
 
     );

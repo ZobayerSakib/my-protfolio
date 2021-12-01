@@ -1,0 +1,45 @@
+.servicesSection{
+    background-image: url('../../Images/bannerBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.servicesTitle{
+    text-align: right;
+    color:white;
+}
+.services{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    
+ 
+}
+
+.differentService{
+    background-color: rgb(14, 15, 13);
+    padding:12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition:transform 2s ;
+   
+}
+.differentService:hover{
+transform: rotate(360deg) scale(1.1);
+border:1px solid rgb(153, 152, 152);
+}
+.differentService p,h3{
+    color:rgb(153, 152, 152);
+}
+/*------------------------------------ Responsive Part -----------------------*/
+@media only screen  and (max-width:850px) {
+    .services{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 20px;
+        
+     
+    }
+}

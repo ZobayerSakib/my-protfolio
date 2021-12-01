@@ -12,6 +12,7 @@ import Product3 from './components/Product3/Product3';
 import Product6 from './components/Product6/Product6';
 import Product4 from './components/Product4/Product4';
 import Product5 from './components/Product5/Product5';
+import About from './components/About/About';
 function App() {
   return (
     <div>
@@ -22,11 +23,12 @@ function App() {
           <Route exact path='/'>
             <Home></Home>
           </Route>
-
           <Route exact path='/home'>
             <Home></Home>
           </Route>
-
+          <Route exact path='/about'>
+            <About></About>
+          </Route>
           <Route exact path='/resume'>
             <Resume></Resume>
           </Route>

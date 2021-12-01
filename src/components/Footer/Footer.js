@@ -22,7 +22,7 @@ const Footer = () => {
             </div>
             <hr />
             <div className='mt-3 text-center footerPara'>
-                <p>&copy;All Rights preserved by Zobayer Sakib</p>
+                <p>&copy;All Rights Reserved by Zobayer Sakib</p>
             </div>
 
         </div>
