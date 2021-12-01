@@ -22,15 +22,15 @@ const Product3 = () => {
                     </div>
                     <br />
                     <h6><b className='projectColorCode'>Short Description:</b></h6>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam earum iure aliquid possimus? Quas iure nulla fugit minima qui praesentium optio doloremque? Explicabo temporibus soluta porro, earum fuga quod velit exercitationem. Dignissimos, provident. Delectus voluptatibus, sequi iusto maxime libero perspiciatis.</p>
+                    <p>Day by day , The world is developing and internet has become the most important part of our daily life. Market,Education,Medicine ect everything we collect from net By using websites. This website made for online education corses. It is a basically English learning website.</p>
                     <h6><b className='projectColorCode'>Short Overview:</b></h6>
 
                     <ul >
                         <li>This is an educational website.</li>
                         <li>In this website, I have used React Js, React Router, React Bootstrap, plain CSS, and so on. The routing part is naturally beautiful.</li>
                         <li>The main objective of this assignment is that show an educational online platform and how much impact can play on a website.</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, odit!</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, possimus?</li>
+                        <li>To easy the daily life education</li>
+                        <li>Click and find the best educational platform like a child behavior.</li>
 
                     </ul>
                 </div>

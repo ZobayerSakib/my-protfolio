@@ -28,11 +28,11 @@ const Product2 = () => {
                     <h6><b className='projectColorCode'>Short Overview:</b></h6>
 
                     <ul >
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, ab?</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, ab?</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, ab?</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, ab?</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, ab?</li>
+                        <li>This website has created by following very simple coding</li>
+                        <li>This is not a Dynamic Website</li>
+                        <li>This Website is Responsive for Mobile and Desktop</li>
+                        <li>It can be dynamic by following some framework and Server site Languages</li>
+                        <li>Users can choice new model products from the Site</li>
 
 
                     </ul>

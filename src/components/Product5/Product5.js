@@ -24,7 +24,7 @@ const Product5 = () => {
                     </div>
                     <br />
                     <h6><b className='projectColorCode'>Short Description:</b></h6>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium non explicabo architecto magni voluptatum unde, veniam est assumenda accusamus quaerat ad, rerum libero sequi, vero fuga odio ipsum molestiae quam ex culpa beatae. Delectus, neque quibusdam maxime cumque sequi in?</p>
+                    <p>Travel is the movement of people between distant geographical locations. Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane, ship or other means, with or without luggage, and can be one way or round trip</p>
                     <h6><b className='projectColorCode'>Short Overview:</b></h6>
 
                     <ul >
